@@ -3,7 +3,7 @@
     "displayName": "Commodore Brigadier Markup",
     "description": "Support for lucko's .commodore markup scheme for Brigadier-style Minecraft Command Completions",
     "publisher": "William278",
-    "icon": "./images/icon.png",
+    "icon": "images/icon.png",
     "version": "1.0.0",
     "engines": {
         "vscode": "^1.70.0"
