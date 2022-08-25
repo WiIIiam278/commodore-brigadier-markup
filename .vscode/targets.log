@@ -1,0 +1,333 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make.exe: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2
+# Built for i686-w64-mingw32
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 25 14:01:55 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# automatic
+?F = $(notdir $?)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# environment
+NITROSDK_ROOT = C:\Users\William\Documents\NitroDSSDK\nitro\NitroSDK4
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/William/Documents/Commodore Spigot/commodore-brigadier-markup
+# default
+SHELL := C:/Program Files/Git/bin//sh.exe
+# environment
+CLION = C:\Program Files\JetBrains\CLion 2022.1.3\bin;
+# environment
+TWLSDK_ROOT = C:\Users\William\Documents\NitroDSSDK\twl\TwlSDK
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+NITROWIFI_ROOT = C:\Users\William\Documents\NitroDSSDK\nitro\NitroWiFi
+# environment
+ONEDRIVE = C:\Users\William\OneDrive
+# environment
+GNUPLOT_LIB = C:\Program Files\gnuplot\demo;C:\Program Files\gnuplot\demo\games;C:\Program Files\gnuplot\share
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.RB;.RBW
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\William\AppData\Local\Temp
+# environment
+NITRO_PACKER_PATH = C:\Users\William\Documents\HaruhiChokuretsu\Translation\NitroPacker\NitroPacker.exe
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PLAYDATE_SDK_PATH = C:\Users\William\Documents\PlaydateSDK
+# environment
+DP0 = C:\Users\William\AppData\Roaming\npm\
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\William\Documents\Commodore Spigot\commodore-brigadier-markup
+# default
+MAKE_HOST := i686-w64-mingw32
+# environment
+PATH = C:\Program Files\ImageMagick-7.1.0-Q16-HDRI;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Gradle\gradle-7.2\bin;C:\Program Files\Wiimm\WIT;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files\Wiimm\SZS;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Java\jdk-16.0.1\bin;C:\Program Files\ChangeJavaVersionScripts\scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Python310\Lib\site-packages\jep\;C:\Users\William\Documents\PlaydateSDK\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\William\AppData\Roaming\Python\Python310\Scripts;C:\Program Files\CMake\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\gnuplot\bin;C:\Program Files\PowerShell\7\;C:\Ruby31-x64\bin;C:\Users\William\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\William\AppData\Local\Microsoft\WindowsApps;C:\Users\William\apache-maven-3.8.1\bin;C:\Users\William\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;C:\Users\William\.dotnet\tools;C:\Program Files\Youtube-DL;C:\Program Files\Hadoop\spark-3.2.1-bin-hadoop3.2\bin;C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;C:\Users\William\AppData\Local\Programs\Fiddler;C:\Users\William\.dotnet\tools;C:\Program Files\Git\bin\;C:\Program Files\Git\cmd\;C:\Users\William\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\CLion 2022.1.3\bin;C:\raylib\w64devkit\bin;C:\Users\William\AppData\Roaming\npm
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132685161669683933
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\William
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+_PROG = node
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_14960_SRETFCWVBXSPVLNC
+# environment
+CHOKURETSU_CLI_PATH = C:\Users\William\Documents\HaruhiChokuretsu\Translation\ChokuretsuTranslationUtility\HaruhiChokuretsuCLI\bin\Release\net6.0\HaruhiChokuretsuCLI.exe
+# environment
+COMPUTERNAME = WILLIAM-PC
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+CWFOLDER_TWL = C:\Users\William\Documents\NitroDSSDK\twl\CW for NINTENDO DSi V1.6 SP2
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+HADOOP_HOME = C:\Program Files\Hadoop\spark-3.2.1-bin-hadoop3.2
+# environment
+WT_SESSION = 8008440f-73a0-4f07-9347-8f9446062d43
+# environment
+USERNAME = William
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\William\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\WILLIAM-PC
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = WILLIAM-PC
+# environment
+DEVKITPRO = /opt/devkitpro
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+NITRODWC_ROOT = C:\Users\William\Documents\NitroDSSDK\nitro\NitroDWC
+# environment
+DEVKITARM = /opt/devkitpro/devkitARM
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-16.0.1
+# default
+MAKE_VERSION := 4.2
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+NITROSDK3_ROOT = C:\Users\William\Documents\NitroDSSDK\nitro\NitroSDK3
+# environment
+LOCALAPPDATA = C:\Users\William\AppData\Local
+# environment
+NITROSYSTEM050901_ROOT = C:\Users\William\Documents\NitroDSSDK\nitro\NitroSystem050901
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+CHOKURETSU_ASSETS_ROOT = C:\Users\William\Documents\HaruhiChokuretsu\Translation\ChokuretsuTranslationAssets
+# environment
+CHOKURETSU_STRINGS_ROOT = C:\Users\William\Documents\HaruhiChokuretsu\Translation\ChokuretsuTranslationStrings
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\77d27ff5edcdc155043cc2d751649b5a-1.70.2-main-sock
+# environment
+HOMEPATH = \Users\William
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\William\AppData\Roaming
+# environment
+TEMP = C:\Users\William\AppData\Local\Temp
+# environment
+WT_PROFILE_ID = {0caa0dad-35be-5f56-a8ff-afceeeaa6101}
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+WIX = C:\Program Files (x86)\WiX Toolset v3.11\
+# environment
+RLSSVCPORT = 22112
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# environment
+NITROSYSTEM_ROOT = C:\Users\William\Documents\NitroDSSDK\nitro\NitroSystem
+# environment
+TWLSYSTEM_ROOT = C:\Users\William\Documents\NitroDSSDK\twl\TwlSystem
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 2100
+# environment
+PYCHARM = C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;
+# environment
+DEVKITPPC = /opt/devkitpro/devkitPPC
+# environment
+CWFOLDER_NITRO = C:\Users\William\Documents\NitroDSSDK\nitro\CW
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+VSCODE_PID = 14960
+# environment
+USERDOMAIN_ROAMINGPROFILE = WILLIAM-PC
+# variable set hash-table stats:
+# Load=121/1024=12%, Rehash=0, Collisions=19/138=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/William/Documents/Commodore Spigot/commodore-brigadier-markup, mtime 1661432508ll): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 20 / storage = 225 B / avg = 11 B
+# current buf: size = 8174 B / used = 225 B / count = 20 / avg = 11 B
+
+# strcache performance: lookups = 22 / hit rate = 9%
+# hash-table stats:
+# Load=20/8192=0%, Rehash=0, Collisions=1/22=5%
+# Finished Make data base on Thu Aug 25 14:01:55 2022
+
+ 

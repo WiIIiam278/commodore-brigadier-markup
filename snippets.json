@@ -1,0 +1,92 @@
+{
+    "Brigadier Integer": {
+        "prefix": [
+            "brigadier:integer",
+            "integer"
+        ],
+        "body": [
+            "brigadier:integer"
+        ],
+        "description": "An integer argument type"
+    },
+    "Brigadier Boolean": {
+        "prefix": [
+            "brigadier:bool",
+            "bool"
+        ],
+        "body": [
+            "brigadier:bool"
+        ],
+        "description": "A boolean argument type"
+    },
+    "Brigadier String": {
+        "prefix": [
+            "brigadier:string",
+            "string"
+        ],
+        "body": [
+            "brigadier:string"
+        ],
+        "description": "A string argument type"
+    },
+    "Brigadier Long": {
+        "prefix": [
+            "brigadier:long",
+            "long"
+        ],
+        "body": [
+            "brigadier:long"
+        ],
+        "description": "A long argument type"
+    },
+    "Brigadier Float": {
+        "prefix": [
+            "brigadier:float",
+            "float"
+        ],
+        "body": [
+            "brigadier:float"
+        ],
+        "description": "A float argument type"
+    },
+    "Brigadier Double": {
+        "prefix": [
+            "brigadier:double",
+            "double"
+        ],
+        "body": [
+            "brigadier:double"
+        ],
+        "description": "A double argument type"
+    },
+    "Quotable Phrase String": {
+        "prefix": [
+            "quotable_phrase",
+            "quotable"
+        ],
+        "body": [
+            "quotable_phrase"
+        ],
+        "description": "A string argument surrounded by quotes"
+    },
+    "Greedy Phrase String": {
+        "prefix": [
+            "greedy_phrase",
+            "greedy"
+        ],
+        "body": [
+            "greedy_phrase"
+        ],
+        "description": "An string argument that can contain spaces"
+    },
+    "Single Word String": {
+        "prefix": [
+            "word",
+            "single_word"
+        ],
+        "body": [
+            "single_word"
+        ],
+        "description": "A single word string argument"
+    }
+}

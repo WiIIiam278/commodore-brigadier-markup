@@ -1,0 +1,46 @@
+{
+    "name": "commodore-brigadier-markup",
+    "displayName": "Commodore Brigadier Markup",
+    "description": "Support for lucko's .commodore markup scheme for Brigadier-style Minecraft Command Completions",
+    "publisher": "William278",
+    "icon": "./images/icon.png",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "commodore-brigadier",
+                "aliases": [
+                    "Commodore Brigadier",
+                    "commodore-brigadier"
+                ],
+                "extensions": [
+                    ".commodore"
+                ],
+                "icon": {
+                    "light": "./images/icon.png",
+                    "dark": "./images/icon.png"
+                },
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "commodore-brigadier",
+                "scopeName": "source.commodore",
+                "path": "./syntaxes/commodore-brigadier.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "commodore-brigadier",
+                "path": "./snippets.json"
+            }
+        ]
+    }
+}

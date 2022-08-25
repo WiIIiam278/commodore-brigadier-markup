@@ -1,0 +1,66 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Commodore Brigadier",
+	"patterns": [
+		{
+			"include": "#flow"
+		},
+		{
+			"include": "#types"
+		},
+		{
+			"include": "#literals"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"incldue": "#quotes"
+		}
+	],
+	"repository": {
+		"types": {
+			"patterns": [
+				{
+					"name": "string.unquoted.brigadier-data-types.commodore-brigadier",
+					"match": "\\b(brigadier:\\b(bool|string|integer|long|float|double)\\b)\\b"
+				},
+				{
+					"name": "storage.type.argument-types.commodore-brigadier",
+					"match": "\\b(greedy_phrase|single_word|quotable_phrase)\\b"
+				}
+			]
+		},
+		"flow": {
+			"patterns": [
+				{
+					"name": "invalid.illegal.commodore-brigadier",
+					"match": "((;)[^\\S\\r\\n]*({))"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.commodore-brigadier",
+					"match": "//.*$"
+				},
+				{
+					"name": "comment.block.commodore-brigadier",
+					"begin": "/\\*",
+					"end": "\\*/"
+				}
+			]
+		},
+		"quotes": {
+			"patterns": [
+				{
+					"name": "string.quoted.double.commodore-brigadier",
+					"begin": "\"",
+					"end": "\""
+				}
+			]
+		}
+	},
+	"scopeName": "source.commodore"
+}
